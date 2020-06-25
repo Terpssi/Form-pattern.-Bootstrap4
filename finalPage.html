@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <script src="https://kit.fontawesome.com/5bf89676cb.js" crossorigin="anonymous"></script>
+    <link href="font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="datetimepicker/jquery.datetimepicker.css" rel="stylesheet">
+    <link rel="stylesheet" href="styleHeader.css">
+    <link rel="stylesheet" href="topButton.css">
+    <link rel="stylesheet" href="content.css">
+</head>
+<body>
+
+<div class="container">
+
+    <div class="container-fluid">
+        <input type="radio" name="options" id="option1" checked>
+        <input type="radio" name="options" id="option2">
+        <input type="radio" name="options" id="option3">
+        <input type="radio" name="options" id="option4">
+        <div class="row">
+            <div class="col">
+                <div class="btn-group">
+                    <label for="option1" class="option1 btn-custom">Today</label>
+                    <label for="option2" class="option2 btn-custom">This Week</label>
+                    <label for="option3" class="option3 btn-custom">This Month</label>
+                    <label for="option4" class="option4 btn-custom">Custom</label>
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-end row-custom">
+            <div class="col-4 forCalendarIcon">
+                <input placeholder="From" type='text' class="inputDate" id='datetimepicker1'><i class="fa fa-calendar" aria-hidden="true"></i>
+            </div>
+            <div class='col-4 forCalendarIcon'>
+                <input placeholder="To" type='text' class="inputDate" id="datetimepicker2"><i class="fa fa-calendar" aria-hidden="true"></i>
+            </div>
+            <div class='col-auto'>
+                <button class="btn btn-primary">Search</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col">
+            <h1 class="font-weight-bold">Main Pump</h1>
+        </div>
+
+    </div>
+    <div class="row">
+        <div class="col">
+            <h5 class="font-weight-bold">4 Log Entries</h5>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <button class="btn btn-success addButton">+ Add Entry</button>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <h2 class="font-weight-bold">Today</h2>
+        </div>
+    </div>
+
+    <hr>
+    <div class="row line">
+        <div class="col">
+            <div class="row">
+                <div class="col-1 content-icon">
+                    <i class="fa-2x fas fa-tools"></i> <!-- fa-2x обязателен -->
+                </div>
+                <div class="col">
+                    <div class="row">
+                        <div class="col-9 col-sm-10 col-md-9">
+                            <div class="row">
+                                <div class="col-12 col-sm-7">
+                                    <h4 class="font-weight-bold">Oilа капыва</h4>
+                                </div>
+                                <div class="col-12 col-sm-5 col-time">
+                                    <time>03-12-2020 08:03:37 CDT</time>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-3 col-sm-2 col-md-3 position-arrow">
+                            <label for="collapse"> <!-- такой же id-->
+                                <i class="arrow fa-3x fas fa-angle-up"></i>
+                            </label>
+                        </div>
+                    </div>
+
+                    <input type="checkbox" id="collapse"/> <!-- менять id -->
+
+                    <div class="content">
+                        <div class="row row-text">
+                            <div class="col-11 col-sm-10 col-md-9">
+                                <p class="text-content">Lortstandard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting</p>
+                            </div>
+                        </div>
+
+                        <div class="row row-icon">
+                            <div class="col">
+                                <a class="frame">
+                                    <i class="fa-icon fa-2x far fa-edit"></i>
+                                </a>
+                                <a class="frame">
+                                    <i class="fa-icon fa-2x fas fa-trash-alt"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <hr>
+    <div class="row line">
+        <div class="col">
+            <div class="row">
+                <div class="col-1 content-icon">
+                    <i class="fa-2x fas fa-sync-alt"></i> <!-- fa-2x обязателен -->
+                </div>
+                <div class="col">
+                    <div class="row">
+                        <div class="col-9 col-sm-10 col-md-9">
+                            <div class="row">
+                                <div class="col-12 col-sm-7">
+                                    <h4 class="font-weight-bold">Oil пример очень длинного заголовк впвап вапвап вываыва капыва</h4>
+                                </div>
+                                <div class="col-12 col-sm-5 col-time">
+                                    <time>03-12-2020 08:03:37 CDT</time>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-3 col-sm-2 col-md-3 position-arrow">
+                            <label for="collapse1"> <!-- такой же id-->
+                                <i class="arrow fa-3x fas fa-angle-up"></i>
+                            </label>
+                        </div>
+                    </div>
+
+                    <input type="checkbox" id="collapse1"/> <!-- менять id -->
+
+                    <div class="content">
+                        <div class="row row-text">
+                            <div class="col-11 col-sm-10 col-md-9">
+                                <p class="text-content">Lortstandard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting</p>
+                            </div>
+                        </div>
+
+                        <div class="row row-icon">
+                            <div class="col">
+                                <a class="frame">
+                                    <i class="fa-icon fa-2x far fa-edit"></i>
+                                </a>
+                                <a class="frame">
+                                    <i class="fa-icon fa-2x fas fa-trash-alt"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <hr>
+    <div class="row line">
+        <div class="col">
+            <div class="row">
+                <div class="col-1 content-icon">
+                    <i class="fa-2x fas fa-pencil-ruler"></i> <!-- fa-2x обязателен -->
+                </div>
+                <div class="col">
+                    <div class="row">
+                        <div class="col-9 col-sm-10 col-md-9">
+                            <div class="row">
+                                <div class="col-12 col-sm-7">
+                                    <h4 class="font-weight-bold">Oil пример очень длинного заголовк впвап вапвап вываыва капыва</h4>
+                                </div>
+                                <div class="col-12 col-sm-5 col-time">
+                                    <time>03-12-2020 08:03:37 CDT</time>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-3 col-sm-2 col-md-3 position-arrow">
+                            <label for="collapse2"> <!-- такой же id-->
+                                <i class="arrow fa-3x fas fa-angle-up"></i>
+                            </label>
+                        </div>
+                    </div>
+
+                    <input type="checkbox" id="collapse2"/> <!-- менять id -->
+
+                    <div class="content">
+                        <div class="row row-text">
+                            <div class="col-11 col-sm-10 col-md-9">
+                                <p class="text-content">Lortstandard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting</p>
+                            </div>
+                        </div>
+
+                        <div class="row row-icon">
+                            <div class="col">
+                                <a class="frame">
+                                    <i class="fa-icon fa-2x far fa-edit"></i>
+                                </a>
+                                <a class="frame">
+                                    <i class="fa-icon fa-2x fas fa-trash-alt"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</div>
+
+<!--fa-pencil-ruler  fa-sync-alt-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script type="text/javascript" src="datetimepicker/jquery.datetimepicker.js"></script>
+<script type="text/javascript" src="datetime.js"></script>
+<script>
+    $(document).ready(function () {
+        $('#datetimepicker1').datetimepicker();
+        $('#datetimepicker2').datetimepicker();
+    });
+
+    $(document).ready(function () {
+        $(".arrow").click(function (event) {
+            if($(event.target).hasClass("fa-angle-up")) {
+                $(event.target).removeClass("fa-angle-up").addClass("fa-angle-down");
+            }else {
+                $(event.target).removeClass("fa-angle-down").addClass("fa-angle-up");
+            }
+        });
+    });
+</script>
+</body>
+</html>

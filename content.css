@@ -1,0 +1,101 @@
+.addButton {
+	 margin-bottom: 1em;
+}
+ .line {
+	 position: relative;
+	 padding-top: 0.7em;
+	 font-size: 0.8em;
+}
+ hr:first-of-type {
+	 border-top: 1px solid #8a8a8a;
+}
+ h4 {
+	 font-size: 1.5em;
+	 margin-bottom: 0.1em;
+}
+ .col-time {
+	 padding-bottom: 0.3em;
+}
+ .arrow {
+	 border: 2px solid #cecece;
+	 padding: 0 10px;
+	 border-radius: 7px;
+}
+ input[type="checkbox"] {
+	 display: none;
+}
+ .row-icon {
+	 margin-bottom: 0.8em;
+}
+ .position-arrow, .row-icon {
+	 text-align: right;
+}
+ .fa-icon {
+	 border: 2px solid #cecece;
+	 padding: 9px 15px;
+	 border-radius: 7px;
+}
+ .fa-2x {
+	 font-size: 1.5em;
+}
+ .text-content {
+	 line-height: 1.3em;
+	 margin-bottom: 0.8em;
+}
+ .content-icon {
+	 text-align: center;
+}
+ input:checked ~ .content {
+	 transform-origin: 50% 0;
+	 display: none;
+	 /*animation: hiddenText 0.5s linear 1 both;*/
+}
+ input:checked ~ .content .row-icon {
+	 display: none;
+}
+ /*@keyframes hiddenText {*/
+	 /*0% {*/
+		 /*height: 100%;*/
+		 /*opacity: 1;*/
+	/*}*/
+	 /*50% {*/
+		 /*opacity: 0.5;*/
+	/*}*/
+	 /*100% {*/
+		 /*height: 0;*/
+		 /*opacity: 0;*/
+	/*}*/
+/*}*/
+ @media (min-width: 768px) {
+	 .container-fluid {
+		 position: absolute;
+		 width: 60%;
+		 z-index: 1;
+		 right: 0;
+	}
+	 .container {
+		 position: relative;
+	}
+	 .forIcon {
+		 margin-right: 1em;
+	}
+	 .btn-group {
+		 margin-bottom: 0.3em;
+	}
+	 .row-icon {
+		 padding-left: 0;
+	}
+	 .col-time {
+		 text-align: end;
+		 padding-right: 20px;
+	}
+	 h5, .addButton {
+		 margin-bottom: 2em;
+	}
+	 .row-icon {
+		 position: absolute;
+		 top: 0;
+		 right: 68px;
+	}
+}
+ 

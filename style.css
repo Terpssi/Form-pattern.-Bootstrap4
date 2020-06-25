@@ -1,0 +1,29 @@
+.addButton {
+  margin-bottom: 2em;
+}
+
+.card-body p {
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+}
+
+.btn-block {
+  margin-bottom: 0.3em;
+}
+
+.col-md-4 {
+  margin-bottom: 0.5em;
+}
+
+.card {
+  height: 100%;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+}
+
+.card-layout {
+  flex-grow: 1;
+}
